@@ -1,5 +1,9 @@
 body{
   text-align:center;
+  margin-top: 50%;
+  margin-left:75%;
+  margin-right:75%;
+  margin-bottom:50%;
 }
 
 div{
@@ -16,9 +20,10 @@ h1{
 }
 
 h3{
-  margin-top:0
+  margin-top:0;
   font-family:Monteserrat,Helvetica, sans-serif, serif;
   font-weight: 1000;
   font-size: 3em;
+  text-transform: uppercase;
   display:block;
 }
