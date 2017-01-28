@@ -1,9 +1,11 @@
 body{
   text-align:center;
-  margin-top: 50%;
-  margin-left:75%;
-  margin-right:75%;
-  margin-bottom:50%;
+  margin-top: 10%;
+  margin-left:25%;
+  margin-right:25%;
+  margin-bottom:10%;
+  background-color: #edede3; /*off white*/
+  color: #313639; /*off black*/
 }
 
 div{
@@ -11,6 +13,13 @@ div{
   text-align:left;
 }
 
+p{
+  margin-top:0;
+  font-family:Monteserrat,Helvetica, sans-serif, serif;
+  font-weight: 300;
+  font-size: 2em;
+  display:block;
+}
 h1{
   margin-top:0;
   font-family:Monteserrat,Helvetica, sans-serif, serif;
@@ -21,9 +30,11 @@ h1{
 
 h3{
   margin-top:0;
+  margin-bottom:3%;
   font-family:Monteserrat,Helvetica, sans-serif, serif;
   font-weight: 1000;
-  font-size: 3em;
+  font-size: 4.75em;
   text-transform: uppercase;
   display:block;
+
 }
