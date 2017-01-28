@@ -9,14 +9,16 @@ div{
 
 h1{
   margin-top:0;
-  font-family:"Helvetica", sans-serif, serif;
+  font-family:Monteserrat,Helvetica, sans-serif, serif;
   font-weight: 700;
   font-size: 1em;
+  display:block;
 }
 
-h2{
+h3{
   margin-top:0
-  font-family:"Helvetica", sans-serif, serif;
+  font-family:Monteserrat,Helvetica, sans-serif, serif;
   font-weight: 1000;
-  font-size: 2em;
+  font-size: 3em;
+  display:block;
 }
