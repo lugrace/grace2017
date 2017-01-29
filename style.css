@@ -27,10 +27,18 @@ h1{
   margin-top:0;
   font-family:Monteserrat,Helvetica, sans-serif, serif;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1.5em;
   display:block;
 }
-
+h2{
+  margin-top:0;
+  margin-bottom:5%;
+  font-family:Monteserrat,Helvetica, sans-serif, serif;
+  font-weight: 850;
+  font-size: 3.75em;
+  text-transform: uppercase;
+  display:block;
+}
 h3{
   margin-top:0;
   margin-bottom:5%;
@@ -40,15 +48,36 @@ h3{
   text-transform: uppercase;
   display:block;
 }
-
-img{
-  margin-right: 1%;
+ul{
+  list-style-type: none;
+}
+li{
+  color: #ee2461;
+  margin-right: 5%;
+  font-family:Monteserrat,Helvetica, sans-serif, serif;
+}
+li span{
+  color: #313639;
+  text-transform:uppercase;
+  font-weight:1000;
+  font-size:2em;
 }
 
-#bracket{
+span{
   color: #ee2461;
   margin-right: 1%;
   margin-left:1%;
   margin-top:1%;
   margin-bottom:5%;
 }
+img{
+  margin-right: 1%;
+}
+
+/*#bracket{
+  color: #ee2461;
+  margin-right: 1%;
+  margin-left:1%;
+  margin-top:1%;
+  margin-bottom:5%;
+}*/
