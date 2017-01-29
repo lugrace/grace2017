@@ -6,6 +6,7 @@ body{
   margin-bottom:10%;
   background-color: #fffff5; /*off white*/
   color: #313639; /*off black*/
+  font-family:Monteserrat,Helvetica, sans-serif, serif;
 }
 
 div{
@@ -77,4 +78,18 @@ img{
 .title{
   color: #ee2461;
   text-align:center;
+}
+
+.static{
+  position:fixed;
+  top:auto;
+  bottom:0px;
+  left:3%;
+  right:auto;
+  font-size:0.25em;
+
+}
+
+#love{
+  color: #7d8184;
 }
