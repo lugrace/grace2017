@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#downArrow").mouseenter(function() {
-    $( "#downArrow" ).toggle( "bounce", { times: 3 }, "slow" );
+    $(this).toggle( "bounce", { times: 3 }, "slow" );
   });
 });
 
