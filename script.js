@@ -2,10 +2,11 @@ $(document).ready(function(){
   $('#intro').hide().fadeIn(2000);
 });
 
-$("#downArrow").mouseenter(function() {
-  $(this).effect( "bounce", { times: 3 }, "slow" );
+$(document).ready(function(){
+  $("#downArrow").mouseenter(function() {
+    $(this).toggle( "bounce", { times: 3 }, "slow" );
+  });
 });
-
 var lastScrollTop=0;
 $(window).scroll(function(){
   var st = $(this).scrollTop();
