@@ -13,7 +13,7 @@ div{
   margin-bottom:2%;
   display: inLine-block;
   text-align:left;
-  align:left;
+  align-items:left;
 }
 
 p{
@@ -73,11 +73,3 @@ span{
 img{
   margin-right: 1%;
 }
-
-/*#bracket{
-  color: #ee2461;
-  margin-right: 1%;
-  margin-left:1%;
-  margin-top:1%;
-  margin-bottom:5%;
-}*/

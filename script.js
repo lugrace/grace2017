@@ -2,6 +2,13 @@ $(document).ready(function(){
   $('#intro').hide().fadeIn(2000);
 });
 
+// $('#downArrow').mouseenter(function() {
+//     $(this).effect('bounce',500);
+// });
+$("#downArrow").mouseenter(function() {
+  $( "#downArrow" ).toggle( "bounce", { times: 3 }, "slow" );
+});
+
 var lastScrollTop=0;
 $(window).scroll(function(){
   var st = $(this).scrollTop();
@@ -11,4 +18,4 @@ $(window).scroll(function(){
       $('#skills').fadeOut();
     }
     lastScrollTop = st;
-})
+});
