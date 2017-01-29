@@ -2,11 +2,24 @@ $(document).ready(function(){
   $('#intro').hide().fadeIn(2000);
 });
 
+// $(document).ready(function(){
+//   $("#downArrow").mouseenter(function() {
+//     $(this).toggle( "bounce", { times: 3 }, "slow" );
+//   });
+// });
+
+$.fn.exBounce = function(){
+    var self = this;
+    (function runEffect(){
+        self.effect("bounce", { times:3 }, 300, runEffect);
+    })();
+   return this;
+
+};
 $(document).ready(function(){
-  $("#downArrow").mouseenter(function() {
-    $(this).toggle( "bounce", { times: 3 }, "slow" );
-  });
+    $("#downArrow").exBounce();
 });
+
 var lastScrollTop=0;
 $(window).scroll(function(){
   var st = $(this).scrollTop();
