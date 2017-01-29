@@ -2,16 +2,10 @@ $(document).ready(function(){
   $('#intro').hide().fadeIn(2000);
 });
 
-// $(document).ready(function(){
-//   $("#downArrow").mouseenter(function() {
-//     $(this).toggle( "bounce", { times: 3 }, "slow" );
-//   });
-// });
-
 $.fn.exBounce = function(){
     var self = this;
     (function runEffect(){
-        self.effect("bounce", { times:3 }, 300, runEffect);
+        self.effect("bounce", { times:3 }, "slow", runEffect);
     })();
    return this;
 
