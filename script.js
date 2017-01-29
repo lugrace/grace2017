@@ -2,10 +2,8 @@ $(document).ready(function(){
   $('#intro').hide().fadeIn(2000);
 });
 
-$(document).ready(function(){
-  $("#downArrow").mouseenter(function() {
-    $(this).effect( "bounce", { times: 3 }, "slow" );
-  });
+$("#downArrow").mouseenter(function() {
+  $(this).effect( "bounce", { times: 3 }, "slow" );
 });
 
 var lastScrollTop=0;
