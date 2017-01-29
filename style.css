@@ -9,8 +9,11 @@ body{
 }
 
 div{
+  margin-top: 2%;
+  margin-bottom:2%;
   display: inLine-block;
   text-align:left;
+  align:left;
 }
 
 p{
@@ -36,6 +39,10 @@ h3{
   font-size: 4.75em;
   text-transform: uppercase;
   display:block;
+}
+
+img{
+  margin-right: 1%;
 }
 
 #bracket{
