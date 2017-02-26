@@ -2,8 +2,16 @@ $(document).ready(function(){
   $('#intro').hide().fadeIn(2000);
 });
 
-$("#downArrow").mouseenter(function() {
-  $( "#downArrow" ).toggle( "bounce", { times: 3 }, "slow" );
+$.fn.exBounce = function(){
+    var self = this;
+    (function runEffect(){
+        self.effect("bounce", { times:0 }, 1000, runEffect);
+    })();
+   return this;
+
+};
+$(document).ready(function(){
+    $("#downArrow").exBounce();
 });
 
 var lastScrollTop=0;
