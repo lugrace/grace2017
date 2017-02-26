@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather :^)</title>
+  <meta charset="utf-8"/>
+  <meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name=viewport>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+  <script type='text/javascript' src='config.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+  <script type='text/javascript' src="weatherscript.js"></script>
+
+</head>
+<body>
+  <div id="intro" style="display:none">
+    <!-- Copyright -->
+    <div class="static">
+      <p id="cp">Grace Lu 2017</p>
+    </div>
+
+    <h3 style="display:inline;">Weather Thing</h3>
+    <p>Hi Hatch :^)</p>
+    <br>
+
+    <canvas id="myChart" width="600" height="400"></canvas>
+    <script type='text/javascript' src="graph.js"></script>
+    <p id=info>Enter date like this: July 1, 1978 02:30:00</p>
+    <p>Note: Data only available every 3 hours</p>
+    <form id="frm1" action="/action_page.php">
+      First date: <input type="text" name="fdate"><br>
+      Last date: <input type="text" name="ldate"><br>
+      <input type="button" onclick="updateTemps()" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
