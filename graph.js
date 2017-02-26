@@ -23,13 +23,13 @@ $.getJSON(url, function(data) {
       labels.push(s);
       temps.push(arr[i].main.temp);
     }
-    makeChart();
+    makeChart(labels, temps);
   });
 
 function updateTemps(){
   var x = document.getElementById('frm1');
-  var fdate = str(x.elements[0].value);
-  var ldate = str(x.elements[1].value);
+  var fdate = x.elements[0].value;
+  var ldate = x.elements[1].value;
   if(fdate != "" && ldate != ""){
     labels = []
     temps = []
@@ -49,10 +49,10 @@ function updateTemps(){
     //February 27, 2017 4:00:00
     //March 1, 2017 4:00:00
   }
-  makeChart();
+  makeChart(labels, temps);
 }
 
-function makeChart(){
+function makeChart(labels, temps){
   var ctx = document.getElementById('myChart').getContext('2d');
   var myChart = new Chart(ctx, {
   //type: 'bar',
