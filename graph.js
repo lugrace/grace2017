@@ -56,6 +56,20 @@ function makeChart(labels, temps){
       title :{
         display:true,
         text: "Washington DC's (5815135) Weather"
+      },
+      scales: {
+        yAxes: [{
+          scaleLabel: {
+            display: true,
+            labelString: 'temp (F)'
+          }
+        }],
+        xAxes:[{
+         scaleLabel:{
+            display:true;
+            labelString:'day'
+         }
+        }]
       }
     }
   });
