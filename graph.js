@@ -66,7 +66,7 @@ function makeChart(labels, temps){
         }],
         xAxes:[{
          scaleLabel:{
-            display:true;
+            display:true,
             labelString:'day'
          }
         }]
