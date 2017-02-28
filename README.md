@@ -10,4 +10,4 @@ TO DO:
   - Add a form for quick contact
   - ~~Added a little weather thing :^)~~
 
-tl;dr I'm practicing my HTML/CSS/JavaScript/and possibly learn PHP
+tl;dr I'm practicing my HTML/CSS/JavaScript
