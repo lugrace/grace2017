@@ -93,3 +93,8 @@ img{
 #love{
   color: #7d8184;
 }
+
+.hideme
+{
+    opacity:0;
+}
