@@ -299,3 +299,14 @@ body .header {
       -1.375em -0.125em 0 #0cf;
   }
 }
+
+
+/*media queries*/
+@media only screen and (max-device-width: 480px{
+  .static{
+    font-size: 0.1em;
+  }
+  button {
+    font-size: 5px;
+  }
+}
