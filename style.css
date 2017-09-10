@@ -312,6 +312,7 @@ body .header {
   body .widget {
     width: 100%;
   }
+ 
 }
 
 @media only screen and (max-device-width: 375px) {
@@ -324,4 +325,31 @@ body .header {
   body .widget {
     width: 100%;
   }
+  body .intro-text .intro-heading {
+  font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4em;
+  line-height: 1em;
+  margin-bottom: 15px;
+  }
+
+body .intro-text .intro-subtext {
+  font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+  font-weight: 300;
+  font-size: 0.5em;
+  line-height: 1em;
+  margin-bottom: 15px;
+  }
+
+body .header {
+  font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1em;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  }
+ 
 }
