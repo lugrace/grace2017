@@ -308,5 +308,20 @@ body .header {
   }
   button {
     font-size: 5px;
+  } 
+  body .widget {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 375px{
+  .static{
+    font-size: 0.1em;
+  }
+  button {
+    font-size: 5px;
+  } 
+  body .widget {
+    width: 100%;
   }
 }
