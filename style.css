@@ -316,13 +316,13 @@ body .header {
  
 }
 
-@media only screen and (max-device-width: 375px) {
+@media only screen and (max-width: 650px) and (min-width: 0px) {
   .static{
     font-size: 0.1em;
   }
   button {
-    font-size: 15px;
-    height: 20px;
+    font-size: 25px;
+    height: 40px;
   } 
   body .widget {
     width: 100%;
@@ -339,7 +339,7 @@ body .header {
   body .intro-text .intro-subtext {
     font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
     font-weight: 300;
-    font-size: 0.5em;
+    font-size: 0.70em;
     line-height: 1em;
     margin-bottom: 15px;
   }
@@ -349,6 +349,102 @@ body .header {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+ 
+}
+
+@media only screen and (max-width: 850px) and (min-width: 650px) {
+  .static{
+    font-size: 0.1em;
+  }
+  .icon{
+    font-size: 1.75em;
+  }
+  img{
+    width: 300px;
+  }
+  button {
+    font-size: 25px;
+    height: 40px;
+  } 
+  body .widget {
+    width: 100%;
+    display: inline-block;
+  }
+  body .intro-text .intro-heading {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom: 15px;
+  }
+
+  body .intro-text .intro-subtext {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    font-weight: 300;
+    font-size: 0.70em;
+    line-height: 1em;
+    margin-bottom: 15px;
+  }
+
+  body .header {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+ 
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 850px) {
+  .static{
+    font-size: 1em;
+  }
+  .icon{
+    font-size: 2.1em;
+  }
+  img{
+    width: 400px;
+    height: 350px;
+  }
+  button {
+    font-size: 25px;
+    height: 40px;
+    margin-bottom: 1em;
+  } 
+  body .widget {
+    width: 100%;
+    display: inline-block;
+  }
+  body .intro-text .intro-heading {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6em;
+    line-height: 1em;
+    margin-bottom: 15px;
+  }
+
+  body .intro-text .intro-subtext {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1em;
+    margin-bottom: 15px;
+  }
+
+  body .header {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
     line-height: 1em;
     margin-bottom: 10px;
     margin-top: 25px;
