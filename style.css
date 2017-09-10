@@ -302,7 +302,7 @@ body .header {
 
 
 /*media queries*/
-@media only screen and (max-device-width: 480px{
+@media only screen and (max-device-width: 480px) {
   .static{
     font-size: 0.1em;
   }
@@ -314,7 +314,7 @@ body .header {
   }
 }
 
-@media only screen and (max-device-width: 375px{
+@media only screen and (max-device-width: 375px) {
   .static{
     font-size: 0.1em;
   }
