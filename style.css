@@ -62,9 +62,13 @@ body .widget{
 	height: 500px;
 	margin-left: 2%;
 	margin-right:2%;
-	display: inline-flex;
-	
+	display: inline-flex;	
 }
+
+body .inner-widget{
+  padding: 30px; 
+}
+
 
 body .widget:hover{
 	border: 1px solid rgb(228, 228, 228);
@@ -258,6 +262,59 @@ body .header {
   animation: rain 3s linear infinite;
 }
 
+.btn{
+  padding: 20px 50px
+  display: inline-block
+  color: white
+  text-decoration: none
+  transition: 0.35s ease-in-out
+  font-weight: 700
+}
+.overlay{
+  width: 100%
+  min-height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  padding: 40px
+  position: fixed
+  top: 0
+  left: 0
+  background: rgba(black, 0.75)
+  opacity: 0
+  pointer-events: none
+  transition: 0.35s ease-in-out
+  max-height: 100vh
+}
+.modal {
+    background: white
+    text-align: center
+    padding: 40px 80px
+    box-shadow: 0px 1px 10px rgba(white, 0.35)
+    opacity: 0
+    pointer-events: none
+    transition: 0.35s ease-in-out
+    max-height: 100vh
+    overflow-y: auto
+}
+.open-modal{
+      opacity: 1
+      pointer-events: inherit
+      .content
+        transform: translate(0, -0px)
+        opacity: 1
+    }
+.content {
+      transform: translate(0, -10px)
+      opacity: 0
+      transition: .35s ease-in-out
+    }
+.title{
+      margin-top: 0
+    }
+
+/*animations*/
 @keyframes spin {
   100% { transform: rotate(360deg); }
 }

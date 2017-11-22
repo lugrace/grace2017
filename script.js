@@ -1,25 +1,45 @@
-$(document).ready(function(){
-  $('#intro').hide().fadeIn(2000);
-   $("#downArrow").exBounce();
-
-   $(window).scroll( function(){
-        $('.hideme').each( function(i){
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            if( bottom_of_window > bottom_of_object ){
-                $(this).animate({'opacity':'1'},500);
-            }
-        }); 
-    });
+$(".modal").each( function(){
+  $(this).wrap('<div class="overlay"></div>')
 });
 
-$.fn.exBounce = function(){
-    var self = this;
-    (function runEffect(){
-        self.effect("bounce", { times:0 }, 1000, runEffect);
-    })();
-   return this;
+$(".open-modal").on('click', function(e){
+  e.preventDefault();
+  e.stopImmediatePropagation;
+  
+  var $this = $(this),
+      modal = $($this).data("modal");
+  
+  $(modal).parents(".overlay").addClass("open");
+  setTimeout( function(){
+    $(modal).addClass("open");
+  }, 350);
+  
+  $(document).on('click', function(e){
+    var target = $(e.target);
+    
+    if ($(target).hasClass("overlay")){
+      $(target).find(".modal").each( function(){
+        $(this).removeClass("open");
+      });
+      setTimeout( function(){
+        $(target).removeClass("open");
+      }, 350);
+    }
+    
+  });
+  
+});
 
-};
-
-
+$(".close-modal").on('click', function(e){
+  e.preventDefault();
+  e.stopImmediatePropagation;
+  
+  var $this = $(this),
+      modal = $($this).data("modal");
+  
+  $(modal).removeClass("open");
+  setTimeout( function(){ 
+    $(modal).parents(".overlay").removeClass("open");
+  }, 350);
+  
+}); 
