@@ -21,7 +21,57 @@
 }
 
 #love{
-  color: white;
+  color: #7d8184;
+}
+
+.links{
+  margin-top: 40px;
+}
+
+.links a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.school{
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: 50px;
+}
+
+.tj{
+  display: flex;
+  flex-direction: row;
+  padding-left: 200px;
+  font-size: 25px;
+}
+
+.tj img{
+  margin-right: 50px;
+  width: 250px;
+}
+
+.tj .description{
+  display: inline-block;
+  text-align: left;
+}
+
+.tj .description p{
+  line-height: 15px;
+}
+
+.intro{
+  font-size: 30px;
+  text-align: left;
+  padding-left: 300px;
+  padding-right: 300px;
+  line-height: 40px;
+}
+
+.intro a{
+  text-decoration: none;
 }
 
 button {
@@ -112,6 +162,16 @@ body .header {
 	line-height: 1em;
 	margin-bottom: 15px;
 	margin-top: 75px;
+}
+
+body .header2 {
+  font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+  /*text-transform: uppercase;*/
+  font-weight: 200;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 15px;
+  margin-top: 75px;
 }
 
  @-webkit-keyframes GradientAnimation {
