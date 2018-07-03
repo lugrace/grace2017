@@ -55,7 +55,7 @@
   display: flex;
   flex-direction: row;
   padding-left: 200px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-size: 25px;
 }
 
@@ -87,24 +87,27 @@ button {
 	left: 50vw;
 	top: 50vh;
 	font-size: 25px;
-	color: #e8e8e8;
+	/*color: #e8e8e8;*/
+  color: white;
 	border: none;
 	border-radius: 10px;
 	outline: none;
-	background: linear-gradient(70deg, #FD746C, #2C3E50);
+	/*background: linear-gradient(70deg, #FD746C, #2C3E50);*/
+  background: #FD746C;
 	background-size: 400% 400%;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
 
-button:hover{
+/*button:hover{
 	background: linear-gradient(70deg, #FD746C, #2C3E50);
 	background-size: 400% 400%;
 
 	-webkit-animation: GradientAnimation 10s ease infinite;
 	-moz-animation: GradientAnimation 10s ease infinite;
 	animation: GradientAnimation 10s ease infinite;
-}
+}*/
+
 body{
 	text-align:center;
 	padding: 0px;
