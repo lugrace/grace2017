@@ -46,6 +46,11 @@
   height: 250px;
 }
 
+#tj_img{
+  width: 240px;
+  height: 250px;
+}
+
 .tj{
   display: flex;
   flex-direction: row;
