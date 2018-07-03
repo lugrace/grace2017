@@ -34,17 +34,23 @@
 }
 
 .school{
-  display: flex;
+  /*display: flex;*/
   flex-direction: row;
   padding-left: 300px;
   padding-right: 300px;
   margin-top: 50px;
 }
 
+#caltech_img{
+  width: 240px;
+  height: 250px;
+}
+
 .tj{
   display: flex;
   flex-direction: row;
   padding-left: 200px;
+  margin-bottom: 40px;
   font-size: 25px;
 }
 
@@ -56,10 +62,6 @@
 .tj .description{
   display: inline-block;
   text-align: left;
-}
-
-.tj .description p{
-  line-height: 15px;
 }
 
 .intro{
