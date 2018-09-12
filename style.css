@@ -123,15 +123,17 @@ body .widget{
 	margin-left: 2%;
 	margin-right:2%;
 	display: inline-flex;	
+  border: 1px solid rgb(228, 228, 228);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 }
 
 body .inner-widget{
-  padding: 30px; 
+  padding: 0px;
+  padding-top: 30px; 
 }
 
-body .widget{
-  border: 1px solid rgb(228, 228, 228);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+body .widget button{
+  margin-top: 50px;
 }
 
 body .widget .title{
