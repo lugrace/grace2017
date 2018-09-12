@@ -477,9 +477,56 @@ body .header2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
-    line-height: 1em;
+    line-height: 0.1em;
     margin-bottom: 10px;
     margin-top: 25px;
+  }
+
+  body .intro {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+  }
+
+  body .education .school{
+    padding:0px;
+    font-size: 25px;
+  }
+
+  body .education .school .tj{
+    padding-left: 0px;
+  }
+
+  body .education .school .tj .description{
+    font-size: 20px;
+  }
+
+  body .work .school{
+    padding:0px;
+    font-size: 25px;
+  }
+
+  body .work .school .tj{
+    padding-left: 0px;
+  }
+
+  body .work .school .tj .description{
+    font-size: 20px;
+  }
+
+  body .education .school #caltech_img{
+    width: 120px;
+    height: 120px;
+  }
+
+  body .education .school #tj_img{
+    width: 120px;
+    height: 120px;
+  }
+
+  body .header #aes-block{
+    margin-bottom: 20px;
+    margin-top: 30px;
   }
  
 }
@@ -546,6 +593,59 @@ body .header2 {
     font-size: 25px;
     height: 40px;
     margin-bottom: 1em;
+  } 
+  body .widget {
+    width: 100%;
+    display: inline-block;
+  }
+  body .intro-text .intro-heading {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6em;
+    line-height: 1em;
+    margin-bottom: 15px;
+  }
+
+  body .intro-text .intro-subtext {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1em;
+    margin-bottom: 15px;
+  }
+
+  body .header {
+    font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+ 
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 1000px) {
+  .static{
+    font-size: 1em;
+  }
+  .icon{
+    font-size: 2.1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0px;
+  }
+  img{
+    width: 200px;
+    height: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  button {
+    font-size: 25px;
+    height: 40px;
   } 
   body .widget {
     width: 100%;
