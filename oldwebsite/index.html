@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Grace Lu</title>
+  <meta charset="utf-8"/>
+  <meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name=viewport>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <div>
+    <!-- Made with love -->
+    <div class="static">
+      <p id="love">made with ♥ 2018</p>
+    </div>
+
+    <div class="animate" style="height:100vh; width: 100%">
+      <div class="intro-text">
+        <div class="intro-heading">
+            <h3 style="display:inline-block; margin-bottom: 20px">Grace Lu</h3>
+        </div>
+        <div class="intro-subtext">
+            <p>Freshman @ California Institute of Technology</p>
+            <div class="links">
+              <a href="#about">about</a>
+              <a href="#projects">projects</a>
+              <a href="#contact">contact</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="whiteback" style="height:60vh; width: 100%">
+        <div class="header" id="about">
+            <h3 style="display:inline-block; margin-bottom: 5px;">About</h3>
+            <div style="margin-bottom: 45px;">
+              <div id="aes-block" style="border:10px solid #FD746C; width: 150px; display: inline-block;"></div>
+            </div>
+        </div>
+        <div class="intro">
+          <p>Hi, I'm Grace!</p>
+          <p>I'm a freshman at <a href="https://caltech.edu/">Caltech</a>, studying computer science.</p>
+          <p>Previously, I was studying computer science and Russian at <a href="https://tjhsst.fcps.edu/">Thomas Jefferson High School for Science and Technology</a>.</p>
+          <p>I'm also a developer who's worked on projects of all shapes and sizes, from AI web and mobile apps to my own research into automating Python documentation.</p>
+          <p>You can find me on <a href="https://github.com/lugrace" target="_blank">Github</a>, <a href="https://devpost.com/gracelu">Devpost</a>, and <a href="https://www.linkedin.com/in/thegracelu/">LinkedIn</a>.</p>
+        </div>
+        <div class="education">
+          <div class="header2">
+            <h3 style="display:inline-block; margin-bottom: 5px;">Education</h3>
+          </div>
+          <div class="school">
+            <div class="tj">
+              <a href="https://caltech.edu/"><img src="img/caltech.png" id="caltech_img"></img></a>
+              <div class="description">
+                <p style="font-size: 30px;">California Institute of Technology</p>
+                <p><b>Bachelors in Computer Science</b></p>
+                <p>2018 - 2022 (expected)</p>
+              </div>
+            </div>
+            <div class="tj">
+              <a href="https://tjhsst.fcps.edu/"><img src="img/tj2.png" id="tj_img"></img></a>
+              <div class="description">
+                <p style="font-size: 30px;">Thomas Jefferson High School for Science and Technology</p>
+                <p><b>Advanced Studies Diploma</b></p>
+                <p>2014 - 2018</p>
+                <p>GPA: 4.503/4.0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="work">
+          <div class="header2">
+            <h3 style="display:inline-block; margin-bottom: 5px;">Work</h3>
+          </div>
+          <div class="school">
+            <div class="tj">
+              <a href="https://hatchapps.com"><img style="margin-top: 30px" src="hatch-logo-grey.png"></a>
+              <div class="description">
+                <p style="font-size: 30px">Hatch Technologies</p>
+                <p><b>Technical Fellow</b></p>
+                <p>June 2017 - Present</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="divider">
+          <div style="margin-bottom: 45px; margin-top: 80px; margin-left: 20px; margin-right: 20px;">
+            <div style="border:10px solid #2C3E50; width: 80%; display: inline-block;"></div>
+          </div>
+        </div>
+        <div class="projects" id="projects">
+          <div class="header">
+              <h3 style="display:inline-block; margin-bottom: 5px;">Projects</h3>
+              <div style="margin-bottom: 45px;">
+                <div id="aes-block" style="border:10px solid #FD746C; width: 150px; display: inline-block;"></div>
+              </div>
+          </div>
+          <div>
+            <div style="width:80%; height:100%; display:inline-block">
+            <!-- add projects here -->
+            <div class="widget">
+              <div class="inner-widget" style="display:inline-block; width:100%">
+                <p class="title">Weather</p>
+                <div class="icon sun-shower" style="margin-bottom: 0.5em;">
+                  <div class="cloud"></div>
+                    <div class="sun">
+                      <div class="rays"></div>
+                    </div>
+                  <div class="rain"></div>
+                </div>
+                <button onclick="location.href='/weather'">Explore</button>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="inner-widget" style="display:inline-block; width:100%">
+                <p class="title">Stocktastic</p>
+                <img src="snake.png" width=250 height=250 style="margin-bottom: 0.5em">
+                <button onclick=" window.open('https://devpost.com/software/stocktastic','_blank')" >Explore</button>
+              </div>
+            </div>
+
+            <div class="widget">
+             <div class="inner-widget" style="display:inline-block; width:100%">
+                <p class="title">Euphoria</p>
+                <h1 style="font-weight:1000;font-size:225px; margin: 0px; color: #ffc4c4; line-height: 200px; margin-bottom: 60px;">E</h1>
+                <button onclick="window.open('https://devpost.com/software/euphoria-rpyvh8','_blank')">Explore</button>
+             </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="divider">
+          <div style="margin-bottom: 45px; margin-top: 80px; margin-left: 20px; margin-right: 20px;">
+            <div style="border:10px solid #2C3E50; width: 80%; display: inline-block;"></div>
+          </div>
+        </div>
+        <div class="contact" style="margin-bottom: 200px" id="contact">
+          <div class="header">
+              <h3 style="display:inline-block; margin-bottom: 5px;">Contact</h3>
+              <div style="margin-bottom: 45px;">
+                <div id="aes-block" style="border:10px solid #FD746C; width: 150px; display: inline-block;"></div>
+              </div>
+          </div>
+          <div class="intro">
+            <p>You can reach me <a href="mailto:glu@caltech.edu">here</a>. I'd love to chat!</p>
+          </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+/*
+  NAME: Grace Lu
+  DATE: April 23, 2022
+
+  This file provides the style for the projects 
+  webpage. 
+ */
+
+main, section, .project-list {
+     display: flex;
+ }
+
+main {
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-list {
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.project-list li {
+    width: 300px;
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.project-list li .project-image img {
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+}

@@ -1,0 +1,50 @@
+/* 
+    Name: Grace Lu
+    CS 132 Spring 2022
+    Date: April 5, 2022
+    This is the style.css page for my personal website. It's used by all pages of my
+    website so that it feels consistent and clean. The theme is clean and simple. 
+*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+img.pfp {
+    border-radius: 50%;
+    max-width:70%;
+    max-height:70%;
+}
+
+section {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.about-me-text, .about-me-visuals {
+    height: 300px;
+}
+
+.about-me-visuals {
+    width: 300px;
+    text-align: center;
+}
+
+.about-me-text {
+    width: 400px;
+    text-align: left;
+    line-height: 120%;
+}
+
+.about-me-text h1 {
+    font-style: italic;
+    font-weight: normal;
+}
